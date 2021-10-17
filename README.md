@@ -2,7 +2,17 @@
 
 ## Dataset: Home Credit Default Risk
 
-https://www.kaggle.com/c/home-credit-default-risk
+Original: https://www.kaggle.com/c/home-credit-default-risk
+
+Customized datasets:
+
+- application.csv:
+
+| prev_id	| curr_id	| contract | amount | credit | down_payment | start_day | purpose | contract_status | payment_type | reject_reason | client | product_type | channel | yield_group | 
+
+- p_application.csv:
+
+| curr_id	| contract | sex | car | income | credit | income_type | education | family_status | house | start_day | organization | 
 
 ## Business Case:
 
