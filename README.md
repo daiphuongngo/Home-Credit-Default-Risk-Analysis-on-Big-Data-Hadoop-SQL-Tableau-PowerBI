@@ -1,4 +1,4 @@
-# Home Credit Default Risk Analysis on Hadoop platform
+# Home Credit Default Risk Analysis on Big Data (Hadoop) platform
 
 ## Dataset: Home Credit Default Risk
 
