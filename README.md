@@ -1,4 +1,4 @@
-## Home Credit Default Risk Analysis on Big Data (Hadoop) platform
+## Home Credit Default Risk Analysis on Big Data (Hadoop, SQL), Tableau platforms
 
 ## Dataset: Home Credit Default Risk
 
