@@ -24,19 +24,19 @@ While Home Credit is currently using various statistical and machine learning me
 
 Conducting a basic Explanatory Data Analysis on their customized datasets as attached on the Big Data plaform to analyze the loan applicants' background and help Home Credit Group expanding their financial services to those who are unable to access financial service. 
 
-## Lanaguages & Tools: 
+## Languages & Tools: 
 
 - SQL
 
 - Scala 
 
-- Hadoop
++ Hadoop
 
-- Hive
++ Hive
 
-- HDFS
++ HDFS
 
-- Zeppelin
++ Zeppelin
 
 ## Business Questions: 
 
