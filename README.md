@@ -38,6 +38,8 @@ Conducting a basic Explanatory Data Analysis on their customized datasets as att
 
 + Zeppelin
 
++ Tableau
+
 ## Business Questions: 
 
 - Family status of the loan applicants?
