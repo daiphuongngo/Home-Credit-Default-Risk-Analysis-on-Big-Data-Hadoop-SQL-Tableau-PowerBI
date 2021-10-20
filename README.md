@@ -22,7 +22,7 @@ While Home Credit is currently using various statistical and machine learning me
 
 ## Targets:
 
-Conducting a basic Explanatory Data Analysis on their customized datasets as attached on the Big Data plaform to analyze the loan applicants' background and help Home Credit Group expanding their financial services to those who are unable to access financial service. 
+Conducting a basic Explanatory Data Analysis on their customized datasets as attached on the Big Data platform to analyze the loan applicants' background and help Home Credit Group expanding their financial services to those who are unable to access financial service. 
 
 ## Languages & Tools: 
 
@@ -48,7 +48,7 @@ Conducting a basic Explanatory Data Analysis on their customized datasets as att
 
 - Education of the loan applicant?
 
-- How capable would each applicant be with repaying a loan? 
+- How capable would each applicant be of repaying a loan? 
 
 ## Final Conclusion:
 
