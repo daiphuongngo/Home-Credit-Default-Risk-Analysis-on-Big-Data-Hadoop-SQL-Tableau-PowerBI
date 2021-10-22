@@ -69,5 +69,58 @@ Home Credit should:
 
 - Secondary customer target should be Commercial Associates, Single/Not Married customers, High School
 
+## Visualizing charts:
+
+Living Background of Loan Applicants by Gender
+
+![Living Background of Loan Applicants by Gender](https://user-images.githubusercontent.com/70437668/138408668-5839b767-c253-4a87-82b6-a42df5cdcf1c.jpg)
+
+Loan applications by family status
+
+![Loan applications by family status](https://user-images.githubusercontent.com/70437668/138408685-c430d66f-4182-4076-91e0-90955be465b6.jpg)
+
+Percentage of loan applications by family status 
+
+![Percentage of loan applications by family status ](https://user-images.githubusercontent.com/70437668/138408705-77485972-7369-415a-a32e-6c7c4116874b.jpg)
+
+Contract Status by Income Type
+
+![Contract Status by Income Type](https://user-images.githubusercontent.com/70437668/138408514-01b4dc82-bf5f-49da-96ea-de562a40b4f4.jpg)
+
+Education type of applicants who got the most loan approvals
+
+![Education type of applicants who got the most loan approvals](https://user-images.githubusercontent.com/70437668/138408564-c312b289-2db8-46ba-b34f-4406b875715f.jpg)
+
+Income Sources of Loan Applicants
+
+![Income Sources of Loan Applicants](https://user-images.githubusercontent.com/70437668/138408604-69600898-47aa-4b6c-aba2-548cd4a4f63f.jpg)
+
+Income type of applications who got the most loan rejection
+
+![Income type of applications who got the most loan rejection](https://user-images.githubusercontent.com/70437668/138408628-2bb8d7c0-b2bf-4f83-a2d4-703787f6a05d.jpg)
+
+Average Income by Income Type
+
+![Average Income by Income Type](https://user-images.githubusercontent.com/70437668/138408493-42a014a1-1a22-4c47-a50a-b4712937a300.jpg)
+
+Credit Amount by Income Sources of Loan Applicants
+
+![Credit Amount by Income Sources of Loan Applicants](https://user-images.githubusercontent.com/70437668/138408538-8329ea1b-93cc-48c0-aa15-b2bcafa3e33b.jpg)
+
+## Dashboards:
+
+Dashboard - Income type, Family Status, Education, Credit Amount
+
+![Dashboard - Income type, Family Status, Education, Credit Amount](https://user-images.githubusercontent.com/70437668/138408987-1c864496-ef72-406b-99d3-a0e29dc9213b.jpg)
+
+Dashboard - Income Type and Average
+
+![Dashboard - Income Type and Average](https://user-images.githubusercontent.com/70437668/138409002-ed5f0e0d-98e5-4c70-a0e2-6b1ca70ea55d.jpg)
+
+Dashboard - Approved applicants by family, contract status, income type
+
+![Dashboard - Approved applicants by family, contract status, income type](https://user-images.githubusercontent.com/70437668/138409033-7816863a-fc6f-492c-b84e-fadeaff9da8c.jpg)
+
+
 
 
