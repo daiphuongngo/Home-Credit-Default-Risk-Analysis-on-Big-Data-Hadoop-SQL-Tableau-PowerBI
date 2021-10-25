@@ -1,5 +1,15 @@
 ## Home Credit Default Risk Analysis on Big Data (Hadoop, SQL), Tableau platforms
 
+## Category: 
+
+- Banking
+
+- Credit
+
+- Finance
+
+- Financial Institute
+
 ## Dataset: Home Credit Default Risk
 
 Original: https://www.kaggle.com/c/home-credit-default-risk
