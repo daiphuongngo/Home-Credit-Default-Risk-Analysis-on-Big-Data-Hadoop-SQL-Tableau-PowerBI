@@ -1,4 +1,4 @@
-## Home Credit Default Risk Analysis on Big Data (Hadoop, SQL), Tableau platforms
+## Home Credit Default Risk Analysis on Big Data (Hadoop, SQL), Tableau, Power BI
 
 ## Category: 
 
@@ -53,6 +53,8 @@ Conducting a basic Explanatory Data Analysis on their customized datasets as att
 
 + Tableau
 
++ Power BI
+
 ## Business Questions: 
 
 - Family status of the loan applicants?
@@ -85,37 +87,55 @@ Home Credit should:
 
 ![Living Background of Loan Applicants by Gender](https://user-images.githubusercontent.com/70437668/138408668-5839b767-c253-4a87-82b6-a42df5cdcf1c.jpg)
 
+![Living Background of Loan Applicants by Gender](https://user-images.githubusercontent.com/70437668/140484418-f6c9110a-6d4a-42a6-ad6b-902468625552.jpg)
+
 ### Loan applications by family status
 
 ![Loan applications by family status](https://user-images.githubusercontent.com/70437668/138408685-c430d66f-4182-4076-91e0-90955be465b6.jpg)
+
+![Loan applications by family status](https://user-images.githubusercontent.com/70437668/140484455-8d67093e-6b2e-4306-a7dd-1b6f1483e86f.jpg)
 
 ### Percentage of loan applications by family status 
 
 ![Percentage of loan applications by family status ](https://user-images.githubusercontent.com/70437668/138408705-77485972-7369-415a-a32e-6c7c4116874b.jpg)
 
+![Percentage of loan applications by family status](https://user-images.githubusercontent.com/70437668/140484469-9973d556-4778-4a69-95fe-c3abb1e79678.jpg)
+
 ### Contract Status by Income Type
 
 ![Contract Status by Income Type](https://user-images.githubusercontent.com/70437668/138408514-01b4dc82-bf5f-49da-96ea-de562a40b4f4.jpg)
+
+![Contract Status by Income Type](https://user-images.githubusercontent.com/70437668/140484484-699abc75-4449-4812-a244-2c673583a2bd.jpg)
 
 ### Education type of applicants who got the most loan approvals
 
 ![Education type of applicants who got the most loan approvals](https://user-images.githubusercontent.com/70437668/138408564-c312b289-2db8-46ba-b34f-4406b875715f.jpg)
 
+![Education type of applicants who got the most loan approvals](https://user-images.githubusercontent.com/70437668/140484503-84ec3124-da24-4599-9ddf-337f95121f85.jpg)
+
 ### Income Sources of Loan Applicants
 
 ![Income Sources of Loan Applicants](https://user-images.githubusercontent.com/70437668/138408604-69600898-47aa-4b6c-aba2-548cd4a4f63f.jpg)
+
+![Income Sources of Loan Applicants](https://user-images.githubusercontent.com/70437668/140484514-5dca47af-c41b-4bfe-a33d-a719c5b9eafa.jpg)
 
 ### Income type of applications who got the most loan rejection
 
 ![Income type of applications who got the most loan rejection](https://user-images.githubusercontent.com/70437668/138408628-2bb8d7c0-b2bf-4f83-a2d4-703787f6a05d.jpg)
 
+![Income type of applications who got the most loan rejection](https://user-images.githubusercontent.com/70437668/140484524-5cd7fb2c-e73b-40c7-beb9-5bf3e1f944a5.jpg)
+
 ### Average Income by Income Type
 
 ![Average Income by Income Type](https://user-images.githubusercontent.com/70437668/138408493-42a014a1-1a22-4c47-a50a-b4712937a300.jpg)
 
+![Average Income by Income Type](https://user-images.githubusercontent.com/70437668/140484541-c6aeaaae-5729-4b41-8092-fcf1bd85e228.jpg)
+
 ### Credit Amount by Income Sources of Loan Applicants
 
 ![Credit Amount by Income Sources of Loan Applicants](https://user-images.githubusercontent.com/70437668/138408538-8329ea1b-93cc-48c0-aa15-b2bcafa3e33b.jpg)
+
+![Credit Amount by Income Sources of Loan Applicants](https://user-images.githubusercontent.com/70437668/140484552-dd90ef33-6daf-4319-9a09-3fa80ac1302b.jpg)
 
 ## Dashboards:
 
