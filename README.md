@@ -116,7 +116,54 @@ SELECT *
 FROM application_external;
 ```
 
-![image](https://user-images.githubusercontent.com/70437668/147734907-01a3aed9-26dd-4bc3-a2f2-15f462d1c7b0.png)
+### Printing out the created tables
+```
+SELECT *
+FROM application_external
+LIMIT 10;
+```
+
+```
+SELECT *
+FROM application_ORC
+LIMIT 10;
+```
+
+## HBase
+```
+sandbox-hdp login: root
+root@sandbox-hdp.hortonworks.com's password: ...
+[root@sandbox-hdp ~]# hbase shell
+hbase(main):001:0> application
+hbase(main):002:0> list
+```
+
+Output
+```
+=> ["ATLAS_ENTITY_AUDIT_EVENTS", "Product", "application", "atlas_titan"]
+```
+
+## Hive (again)
+
+### Creating external tables for HBase
+to be continued
+```
+
+```
+
+## Zeppelin
+
+```
+
+```
+
+```
+%jdbc(hive)
+SELECT *
+FROM ext_hbase_application
+WHERE income_type='Pensioner'
+ORDER BY income DESC;
+```
 
 ## Visualizing charts in Tableau & Power BI:
 
