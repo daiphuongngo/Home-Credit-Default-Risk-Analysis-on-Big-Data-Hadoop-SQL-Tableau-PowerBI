@@ -87,7 +87,38 @@ Home Credit should:
 
 - Secondary customer target should be Commercial Associates, Single/Not Married customers, High School
 
-## Visualizing charts:
+## Hive 
+
+### Creating Hive external & external tables for application & previous application datasets
+
+We have created hive external and internal tables for our application and previous application dataset. We named them as application_external & application_orc and p_application_external and p_application_orc.
+
+```
+CREATE EXTERNAL TABLE IF NOT EXISTS p_application_external(prev_id int, curr_id int, contract string, amount float, credit float, down_payment float, start_day, purpose string, contract_status string, payment_type string, reject_reason string, client string, product_type string, channel string, yield_group string)
+ROW FORMAT DELIMITEDFIELDS TERMINATED BY ‘,’
+STORED AS TEXTFILELOCATION /tmp/group/p_application
+```
+```
+CREATE TABLE IF NOT EXISTS p_application_ORC(prev_id int, curr_id int, contract string, amount int, credit int, income_type string, education string, family_status string, house string, start_day string, organization string)
+STORED AS ORC;
+```
+
+### Loading the data from external table to internal table for both application and p_application data sets
+```
+INSERT INTO TABLE p_application_orc 
+SELECT *
+FROM p_application_external;
+```
+
+```
+INSERT INTO TABLE application_orc 
+SELECT *
+FROM application_external;
+```
+
+![image](https://user-images.githubusercontent.com/70437668/147734907-01a3aed9-26dd-4bc3-a2f2-15f462d1c7b0.png)
+
+## Visualizing charts in Tableau & Power BI:
 
 ### Living Background of Loan Applicants by Gender
 
