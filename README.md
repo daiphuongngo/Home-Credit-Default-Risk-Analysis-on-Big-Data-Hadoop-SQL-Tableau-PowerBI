@@ -27,6 +27,10 @@ Customized datasets:
 | curr_id	| contract | sex | car | income | credit | income_type | education | family_status | house | start_day | organization | 
 |-|-|-|-|-|-|-|-|-|-|-|-|
 
+Original datasets:
+
+![home_credit](https://user-images.githubusercontent.com/70437668/147731951-9f81a423-c763-438c-8743-fb625f49aed8.png)
+
 ## Business Case:
 
 "Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders. Home Credit Group strives to broand fiancial inclusion for the unbanked population by providing a positive and safe borrowing experience. In order to make sure this underserved population has a positive loan experience, Home Credit makes use of a variety of alternative data--including telco and transactional information--to predict their clients' repayment abilities.
@@ -38,6 +42,8 @@ While Home Credit is currently using various statistical and machine learning me
 Conducting a basic Explanatory Data Analysis on their customized datasets as attached on the Big Data platform to analyze the loan applicants' background and help Home Credit Group expanding their financial services to those who are unable to access financial service. 
 
 ## Languages & Tools: 
+
+- Python 
 
 - SQL
 
