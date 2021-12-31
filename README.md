@@ -232,6 +232,95 @@ Results.createOrReplaceTempView("Incometypeview")
 
 The result generated with spark2.sql from the temporary table of Income type shows the same output as the one with spark.
 
+### Which income type of applicants who got approval for a loan?
+
+Our table illustrates that Working people received the most loan approval by 1341 ( 50.8 % of income type) while their average income ranked 3rd by near 165 thousand (24.2%). Meanwhile, Commercial associate obtained the 2nd highest approvals for loan while their average income placed the highest by more than 195 thousand. Pensioner and State servant were among the lowest cases of approved applicants.
+
+```
+%spark2.sql
+SELECT Recordsview.income_type, COUNT(p_application_orc.contract_status) AS approved, AVG(Recordsview.income) 
+FROM p_application_orc
+JOIN Recordsview ON Recordsview.curr_id = p_application_orc.curr_id
+WHERE p_application_orc.contract_status = "Approved"
+GROUP BY Recordsview.income_type
+ORDER BY COUNT(p_application_orc.contract_status) DESC
+```
+![image](https://user-images.githubusercontent.com/70437668/147804055-2f0e2897-7f48-4169-9701-984c847c570b.png)
+
+![image](https://user-images.githubusercontent.com/70437668/147804065-850f19b0-3d1e-4a7d-ad5a-6b9988099885.png)
+
+### Loan Approval’s Bar chart by Income Type
+
+For the cases of Approved , Working income_type dominated the largest portion with 1341 cases while commercial associate kept their position at the 2nd rank, pensioner and state servant still placed the 3rd and 4th.
+
+![image](https://user-images.githubusercontent.com/70437668/147804079-47caac55-2442-45ad-8f02-8aa8948da2f9.png)
+
+### Which income type of applicants who got rejected for a loan?
+
+Working dominated this field with the highest case of rejected applicant for a loan (748) although their average income ranked 3rd by slightly more than 172 thousand of application who got rejected.
+
+Commercial got the second highest case by 411 while taking the 1st place of average income by more than 206 thousand.
+Pensioner and State servant were among the lowest cases of rejected applicants but State Servant (ranked last) obtained the 2nd highest average income by more than 196 thousand.
+
+```
+%spark2.sql
+SELECT Recordsview.income_type, COUNT(p_application_orc.contract_status) AS approved, AVG(Recordsview.income) 
+FROM p_application_orc
+JOIN Recordsview ON Recordsview.curr_id = p_application_orc.curr_id
+WHERE p_application_orc.contract_status = "Refused" OR p_application_orc.contract_status = "Canceled"
+GROUP BY Recordsview.income_type
+ORDER BY COUNT(p_application_orc.contract_status) DESC
+```
+
+![image](https://user-images.githubusercontent.com/70437668/147804272-7a95cdf9-15ca-44f2-ac87-7c57219b1747.png)
+
+![image](https://user-images.githubusercontent.com/70437668/147804278-7a7f91d3-5b75-4bc2-a606-f0e07182f2c2.png)
+
+This is a pie chart we had visualized so you can see the working type dominates roughly half of the applicant with income type rejected for a loan.
+
+### Which Family Status got the most loan approval?
+
+Married couples took the majority of family status to be approved for a loan with 1733 cases. This is visualized this on a pie chart below.
+```
+%spark2.sql
+SELECT Recordsview.family_status, COUNT(p_application_orc.curr_id) 
+FROM p_application_orc
+JOIN Recordsview ON Recordsview.curr_id = p_application_orc.curr_id
+WHERE p_application_orc.contract_status = "Approved"
+GROUP BY Recordsview.family_status
+ORDER BY COUNT(p_application_orc.curr_id) DESC
+```
+
+![image](https://user-images.githubusercontent.com/70437668/147804295-3418470e-2cc0-4cae-8460-c37b48bc460b.png)
+
+![image](https://user-images.githubusercontent.com/70437668/147804361-819f3452-d1c3-4c47-ad8b-500696752b2a.png)
+
+Married customers played the most crucial in cases of application getting approval for loan by ⅔ of cases (1733 cases).
+The second highest family status was single/not married but consisted of only 311 cases.
+
+### Loan application by family status
+
+Married people applied more loans than any other groups of family status with 2,772 cases which is more than 5-fold of the second highest Single / Not married applications. 
+
+![image](https://user-images.githubusercontent.com/70437668/147804385-a839d1e5-de00-4a36-8546-2353d2c02455.png)
+
+### Which education type of applicants got the most loan approvals?
+
+Looking at the education background of applicant group getting the most loan approvals, secondary/secondary special played the most significant role in this field with the highest count by 1917 (73 %). Meanwhile, higher education came at the 2nd place with 610 cases (23%). Incomplete higher and Lower Secondary contributed minor figures of 3% and 1%, respectively.
+
+```
+%spark2.sql
+SELECT Recordsview.education, COUNT(p_application_orc.curr_id) 
+FROM p_application_orc
+JOIN Recordsview ON Recordsview.curr_id = p_application_orc.curr_id
+WHERE p_application_orc.contract_status = "Approved"
+GROUP BY Recordsview.education
+ORDER BY COUNT(p_application_orc.curr_id) DESC
+```
+![image](https://user-images.githubusercontent.com/70437668/147804488-ccd306e5-2e2d-4765-bc72-d085ee677cc4.png)
+
+![image](https://user-images.githubusercontent.com/70437668/147804572-b9f35a9a-305a-40e1-b7ad-adec6870c117.png)
+
 ## Visualizing charts in Tableau & Power BI:
 
 ### Living Background of Loan Applicants by Gender
