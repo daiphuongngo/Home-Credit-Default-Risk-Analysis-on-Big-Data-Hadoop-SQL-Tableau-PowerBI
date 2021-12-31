@@ -159,9 +159,7 @@ TBLPROPERTIES(“hbase.table.name” = “application”, “hbase.mapred.output
 
 ## Zeppelin
 
-```
-
-```
+### Retrieve data from the external HBase application table
 
 ```
 %jdbc(hive)
@@ -170,6 +168,69 @@ FROM ext_hbase_application
 WHERE income_type='Pensioner'
 ORDER BY income DESC;
 ```
+ The top 5 Pensioner income types with the highest income have contracts of Cash loans and Revolving loans and Female applicants without Car dominate the loan applications. 
+ 
+### Creating dataframes and loading the data from HDFS
+
+```
+%spark2
+// Create an application Dataframe from CSV file
+Val records = (spark.read
+	.option(“header”, “true”) // Use the first line as header
+	.option(“inferSchma”, “true”) // Infer schema
+	.csv(“/tmp/group/application/application.csv”))
+```
+
+Output
+```
+records: org.apache.spark.sql.DataFrame = [curr_id: int, contract: string ... 10 more fields]
+```
+
+```
+%spark2
+records.select(“curr_id”, “contract”, ”sex”, ”car”, ”income”, ”credit”, ”income_type”, ”education”, ”family_status”, ”house”,”start_day”, ”organization”).show()
+```
+
+![image](https://user-images.githubusercontent.com/70437668/147803515-38291d39-171b-429f-85cc-c3d20eb6ce7f.png)
+
+### Printing schema
+```
+%spark2
+// Print the schema in a tree format
+records.printSchema()
+```
+![image](https://user-images.githubusercontent.com/70437668/147803544-87347130-8e99-4458-998c-6226ac7c8c91.png)
+
+### Grouping the data by income type
+
+We can show the cout of income_type by using Spark. the GROUP BY income_type command can help to draw the values in the result.
+
+The Working, Commerical associate & Pensioner working types plays a significant role in the distribution of loan applications while Unemployed type has very rare cases to apply for loan successfully.
+
+```
+%spark2.spark
+val Results = records.groupBy("income_type").count()
+Results.show()
+```
+![image](https://user-images.githubusercontent.com/70437668/147803700-71789fb0-0498-4162-a5dd-da595aa626cd.png)
+
+### Creating tempview tables
+
+Creating temporary tables can help to run SQL queries from required tables and then visualize requested figures.
+```
+%spark2
+records.createOrReplaceTempView("Recordsview")
+```
+
+```
+%spark2
+Results.createOrReplaceTempView("Incometypeview")
+```
+![image](https://user-images.githubusercontent.com/70437668/147803840-286047b2-8be8-46df-a1a8-e5445859ec1b.png)
+
+![image](https://user-images.githubusercontent.com/70437668/147803845-ec1cfc46-35a1-4fee-b190-6baa7be9fe8c.png)
+
+The result generated with spark2.sql from the temporary table of Income type shows the same output as the one with spark.
 
 ## Visualizing charts in Tableau & Power BI:
 
