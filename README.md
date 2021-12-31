@@ -146,10 +146,16 @@ Output
 ## Hive (again)
 
 ### Creating external tables for HBase
-to be continued
-```
 
 ```
+CREATE EXTERNAL TABLE ext_hbase_application (curr_id int, contract string, sex string, car string, income float, credit float, income_type float, education, family_status, house, start_day, organization string)
+STORED BY ‘org.apache.hadoop.hive.hbase.HBaseStorageHandler’
+WITH SERDEPROPERTIES (“hbase.columns.mapping” = “:key, details: contract, details: sex, details: car, details: income, details: credit, details: income_type, details: education, details: family_status, details: house, details: start_day, details: organization)
+TBLPROPERTIES(“hbase.table.name” = “application”, “hbase.mapred.output.outputtable” = “application”)
+![image](https://user-images.githubusercontent.com/70437668/147803000-645e3acd-ebd9-4c4f-bf30-9e74b8b36871.png)
+```
+
+![image](https://user-images.githubusercontent.com/70437668/147803001-edffbfe6-b983-4eff-a200-23d0ffd28f83.png)
 
 ## Zeppelin
 
