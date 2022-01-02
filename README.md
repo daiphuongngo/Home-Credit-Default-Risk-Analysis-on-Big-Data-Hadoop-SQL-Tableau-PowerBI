@@ -18,13 +18,13 @@ Customized datasets:
 
 - application.csv: (Application dataset)
 
-| prev_id	| curr_id	| contract | amount | credit | down_payment | start_day | purpose | contract_status | payment_type | reject_reason | client | product_type | channel | yield_group | 
+| prev_id | curr_id | contract | amount | credit | down_payment | start_day | purpose | contract_status | payment_type | reject_reason | client | product_type | channel | yield_group | 
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 
 
 - p_application.csv: (Previous Application dataset)
 
-| curr_id	| contract | sex | car | income | credit | income_type | education | family_status | house | start_day | organization | 
+| curr_id | contract | sex | car | income | credit | income_type | education | family_status | house | start_day | organization | 
 |-|-|-|-|-|-|-|-|-|-|-|-|
 
 Original datasets:
@@ -95,11 +95,11 @@ We have created hive external and internal tables for our application and previo
 
 ```
 CREATE EXTERNAL TABLE IF NOT EXISTS p_application_external(prev_id int, curr_id int, contract string, amount float, credit float, down_payment float, start_day, purpose string, contract_status string, payment_type string, reject_reason string, client string, product_type string, channel string, yield_group string)
-ROW FORMAT DELIMITEDFIELDS TERMINATED BY ‘,’
-STORED AS TEXTFILELOCATION /tmp/group/p_application
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+STORED AS TEXTFILE LOCATION /tmp/group/p_application
 ```
 ```
-CREATE TABLE IF NOT EXISTS p_application_ORC(prev_id int, curr_id int, contract string, amount int, credit int, income_type string, education string, family_status string, house string, start_day string, organization string)
+CREATE TABLE IF NOT EXISTS p_application_ORC (prev_id int, curr_id int, contract string, amount int, credit int, income_type string, education string, family_status string, house string, start_day string, organization string)
 STORED AS ORC;
 ```
 
