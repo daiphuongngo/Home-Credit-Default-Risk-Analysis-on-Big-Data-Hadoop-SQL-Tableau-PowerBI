@@ -81,11 +81,7 @@ Most significant background check of applicants who got the most loan approvals:
 
 - Secondary/Special Secondary Education Type
 
-Home Credit should:
-
-- Focus on Working income type, Married couples, Secondary/High school education background of applicants as the first priority and the main customer target
-
-- Secondary customer target should be Commercial Associates, Single/Not Married customers, High School
+- Home Credit should focus on Working income type (rejected 748, 49% of rejected cases), Married couples (approved 2/3 of cases), Secondary/High school education (73% of approved cases) background of applicants as the first priority & the main customer target. Secondary customer targets should be Commercial Associates, Single/Not Married customers, High School.
 
 ## Hive 
 
