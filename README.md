@@ -83,6 +83,40 @@ Most significant background check of applicants who got the most loan approvals:
 
 Home Credit should focus on Working income type (rejected 748, 49% of rejected cases), Married couples (approved 2/3 of cases), Secondary/High school education (73% of approved cases) background of applicants as the first priority & the main customer target. Secondary customer targets should be Commercial Associates, Single/Not Married customers, High School.
 
+## Hadoop
+
+### Before I start, what is Hadoop?
+
+Hadoop is an open source software platform for scalable, distributed computing. It provides fast and reliable analysis of both structured data and unstructured data. Apache Hadoop software library is essentially a framework that  allows for the distributed processing of large datasets across  clusters of computers using a simple programming model. Hadoop can scale up from single servers to thousands of  machines, each offering local computation and storage.
+
+Hadoop Ecosystem Projects includes components as below. However, I will use only HBase, HDFS, Hive, Zeppelin to conduct ETL, analysis and visualization.
+
+- Hadoop Common utilities
+- Avro: A data serialization system with scripting languages.
+- Chukwa: managing large distributed systems.
+- HBase: A scalable, distributed database for large tables.
+- HDFS: A distributed file system that provides high-throughput access to application data. It uses a master/slave architecture in which one device  (master) termed as NameNode controls one or more other devices (slaves) termed as DataNode. It breaks Data/Files into small blocks (128 MB each block) and  stores on DataNode and each block replicates on other nodes to  accomplish fault tolerance. NameNode keeps the track of blocks written to the DataNode. There are Assumptions and Goals of HDFS:
+
+	+ Hardware Failure
+
+	+ Streaming Data Access (Best for batch processing)
+
+	+ Large Data Sets
+
+	+ Simple Coherency Model (write-once-read-many access model)
+
+	+ Portability Across Heterogeneous Hardware and Software Platforms
+
+- Hive: data summarization and ad hoc querying.
+- MapReduce: A distributed processing on compute clusters. In other words, it is a software framework for distributed processing of large data sets. The framework takes care of scheduling tasks, monitoring them  and re-executing any failed tasks. It splits the input data set into independent chunks that are  processed in a completely parallel manner. MapReduce framework sorts the outputs of the maps, which are  then input to the reduce tasks. Typically, both the input and the  output of the job are stored in a file system.
+
+- Zeppelin: a web-based notebook for data ingestion, exploration, visualization, sharing collaborative features of Hadoop ecosystem. It has a concept called “interpreter”, a language backend that enables various data sources to be plugged into Zeppelin.
+
+- Pig: A high-level data-flow language for parallel computation.
+
+- ZooKeeper: coordination service for distributed applications.
+
+
 ## Hive 
 
 ### Creating Hive external & external tables for application & previous application datasets
