@@ -371,11 +371,15 @@ Married applicants play the most significant role in submission for loans. They 
 
 ### Percentage of loan applications by family status 
 
+(same conclusion as above)
+
 ![Percentage of loan applications by family status ](https://user-images.githubusercontent.com/70437668/138408705-77485972-7369-415a-a32e-6c7c4116874b.jpg)
 
 ![Percentage of loan applications by family status](https://user-images.githubusercontent.com/70437668/140484469-9973d556-4778-4a69-95fe-c3abb1e79678.jpg)
 
 ### Contract Status by Income Type
+
+Applicants with Working Contract Status tend to a a great demand for financial loans although they earn income from their contract. One reason might be that loan approval tend to prefer people with a confirmed working contract. So, those applicants have an existing demand for financial plans and loans to help them finance other costs paid monthly over the years, such as cars, condos, houses, etc. They distributes more than 50% of all contract types. Meanwhile, Commercial Associate have less than a half of applicants having working contract, which is about 24.2% of all types. Pensioners also have a decent demand for loans which contribute 18.4% while State Servants provide only 6.5%.
 
 ![Contract Status by Income Type](https://user-images.githubusercontent.com/70437668/138408514-01b4dc82-bf5f-49da-96ea-de562a40b4f4.jpg)
 
