@@ -355,6 +355,8 @@ ORDER BY COUNT(p_application_orc.curr_id) DESC
 
 ### Living Background of Loan Applicants by Gender
 
+Among loan applicants by Gender, the result shows a tendency that Female applicants seem to have more demand to apply for loans than Male. More specifically, female applicants having house / aprtment contribute nearly 3K of applications, roughly 2-fold the ones submitted by Male also having house / aprtment. Other types of applications living with parents, municial aprtmetn, rented aprtment, office aprtment oversee a much lower applications by approximately 95% but Female applicants also seem to dominate the submission with 1.5 or 2-fold number of those by Male.
+
 ![Living Background of Loan Applicants by Gender](https://user-images.githubusercontent.com/70437668/138408668-5839b767-c253-4a87-82b6-a42df5cdcf1c.jpg)
 
 ![Living Background of Loan Applicants by Gender](https://user-images.githubusercontent.com/70437668/140484418-f6c9110a-6d4a-42a6-ad6b-902468625552.jpg)
