@@ -363,6 +363,8 @@ Among loan applicants by Gender, the result shows a tendency that Female applica
 
 ### Loan applications by family status
 
+Married applicants play the most significant role in submission for loans. They seem to need more financial plan support for marriage life together. In contrast, other types, especially people without marriage due to different factors and reasons might not care for financial loans for themselves or for a life with other significant others. This is why Married ones distribute up to 2.8K of applications (roughly 65.3%), which is more than 5-fold the Single/Not Married (12.23%), 6.5-fold the Civil Marriage (10.01%), 9-fold the Widow (7.21%) and 12.5-fold the Separated (5.23%).
+
 ![Loan applications by family status](https://user-images.githubusercontent.com/70437668/138408685-c430d66f-4182-4076-91e0-90955be465b6.jpg)
 
 ![Loan applications by family status](https://user-images.githubusercontent.com/70437668/140484455-8d67093e-6b2e-4306-a7dd-1b6f1483e86f.jpg)
