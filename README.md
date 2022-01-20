@@ -387,6 +387,8 @@ Applicants with Working Contract Status tend to a a great demand for financial l
 
 ### Education type of applicants who got the most loan approvals
 
+Secondary / Secondary Special Education Type dominated the distribution of loan applicants' educational background by 72.75%. Meanwhile, Higher education consisted of the second-ranked type by 23.15%. However, Income Higher, Lower Secondary and Academic Degree are the least significant and they comprised only roughly 4.1% of the whole distribution.
+
 ![Education type of applicants who got the most loan approvals](https://user-images.githubusercontent.com/70437668/138408564-c312b289-2db8-46ba-b34f-4406b875715f.jpg)
 
 ![Education type of applicants who got the most loan approvals](https://user-images.githubusercontent.com/70437668/140484503-84ec3124-da24-4599-9ddf-337f95121f85.jpg)
