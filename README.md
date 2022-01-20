@@ -401,6 +401,8 @@ Secondary / Secondary Special Education Type dominated the distribution of loan 
 
 ### Income type of applications who got the most loan rejection
 
+Working type XNA exercised control over the Income Sources by roughly 64.58% of the total applicants whose contract status was canceled or refused. This was much higher than any other sources such as XAP accounting for 28.56%, and other much less prevalent types such as Repairs accounting for 2.56%, etc.
+
 ![Income type of applications who got the most loan rejection](https://user-images.githubusercontent.com/70437668/138408628-2bb8d7c0-b2bf-4f83-a2d4-703787f6a05d.jpg)
 
 ![Income type of applications who got the most loan rejection](https://user-images.githubusercontent.com/70437668/140484524-5cd7fb2c-e73b-40c7-beb9-5bf3e1f944a5.jpg)
