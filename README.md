@@ -399,7 +399,7 @@ Secondary / Secondary Special Education Type dominated the distribution of loan 
 
 ![Income Sources of Loan Applicants](https://user-images.githubusercontent.com/70437668/140484514-5dca47af-c41b-4bfe-a33d-a719c5b9eafa.jpg)
 
-### Income type of applications who got the most loan rejection
+### Loan Purposes of applicants who got the most loan rejection
 
 Working type XNA exercised control over the Income Sources by roughly 64.58% of the total applicants whose contract status was canceled or refused. This was much higher than any other sources such as XAP accounting for 28.56%, and other much less prevalent types such as Repairs accounting for 2.56%, etc.
 
@@ -408,6 +408,9 @@ Working type XNA exercised control over the Income Sources by roughly 64.58% of 
 ![Income type of applications who got the most loan rejection](https://user-images.githubusercontent.com/70437668/140484524-5cd7fb2c-e73b-40c7-beb9-5bf3e1f944a5.jpg)
 
 ### Average Income by Income Type
+
+In the Approved cases, it shows quite a difference from the descending order of Working types. Commercial led the distribution of applications with nearly $200K on average. State servants reached more than $178K on average but didn't have a great number of approved loans. This might be because their income sources are not clear enough to comply with loan requirements. Meanwhile the most approved Income Type was Working but its average income was roughly $164K. A reason which helped them to take the lead might be that their income sources are reliable with legal working contracts. Next, Pensioner also had an adequate average income of around $128K. This type could also be targeted for potential cases for approval if Home Credit Group's loan team can review cases of this type thoroughly to look for more potential and reliable applicants.
+
 
 ![Average Income by Income Type](https://user-images.githubusercontent.com/70437668/138408493-42a014a1-1a22-4c47-a50a-b4712937a300.jpg)
 
