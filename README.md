@@ -1,4 +1,4 @@
-## Home Credit Default Risk Analysis on Big Data (Hadoop, SQL), Tableau, Power BI
+## Home Credit Default Risk Analysis on Big Data (Hadoop, SQL), Python, Tableau, Power BI
 
 ## Category: 
 
@@ -26,6 +26,10 @@ Customized datasets:
 
 | curr_id | contract | sex | car | income | credit | income_type | education | family_status | house | start_day | organization | 
 |-|-|-|-|-|-|-|-|-|-|-|-|
+
+- POS_CASH_balance:
+| SK_ID_PREV | SK_ID_CURR | MONTHS_BALANCE | CNT_INSTALMENT | CNT_INSTALMENT_FUTURE | NAME_CONTRACT_STATUS | SK_DPD | SK_DPD_DEF |
+|-|-|-|-|-|-|-|-|
 
 Original datasets:
 
