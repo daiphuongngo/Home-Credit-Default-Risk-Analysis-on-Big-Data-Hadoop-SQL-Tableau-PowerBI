@@ -28,6 +28,7 @@ Customized datasets:
 |-|-|-|-|-|-|-|-|-|-|-|-|
 
 - POS_CASH_balance:
+
 | SK_ID_PREV | SK_ID_CURR | MONTHS_BALANCE | CNT_INSTALMENT | CNT_INSTALMENT_FUTURE | NAME_CONTRACT_STATUS | SK_DPD | SK_DPD_DEF |
 |-|-|-|-|-|-|-|-|
 
