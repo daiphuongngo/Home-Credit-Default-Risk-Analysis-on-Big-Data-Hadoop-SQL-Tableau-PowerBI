@@ -1,4 +1,8 @@
-## Home Credit Default Risk Analysis on Big Data (Hadoop, SQL), Python, Tableau, Power BI
+# Home Credit Default Risk Analysis on Big Data (Hadoop, SQL), Python, Tableau, Power BI
+
+## Overview:
+
+This project is for an assignment in my Big Data class with personal selection on dataset. I chose Home Credit Default Risk as it has many datasets to explore, analyze and visualize. I will upgrade it gradually with more in-depth analysis and viz. The class required only SQL, Scala, Hadoop, Hive, HDFS, Zeppelin. However, I also used Python, Tableau, Power BI to improve a wide range of skills. Stay tuned!!
 
 ## Category: 
 
