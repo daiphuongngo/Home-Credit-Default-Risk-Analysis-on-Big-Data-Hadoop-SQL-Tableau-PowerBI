@@ -4,6 +4,16 @@
 
 I chose Home Credit Default Risk as it has many datasets to explore, analyze and visualize. I will upgrade it gradually with more in-depth analysis and viz. The class required only SQL, Scala, Hadoop, Hive, HDFS, Zeppelin. However, I also used Python, Tableau, Power BI to improve a wide range of skills. 
 
+## Next Phase (Future Improvement):
+
+Analyzing the level of risk in each category of fields would be important. Credit score is one of significant metrics to analyze the risk level of an individual client. Other crucial metrics to evaluate the risk level could be:
+
+- Debt-to-income illustrates the level of debt of an individual based on his/her total income
+
+- Average length of employment explains the labor market and employment background correlating with risky or unrisky individuals
+
+Predicitng risky clients using Classification models could be developed and optimized in the upcoming stage using datasets with more features than the current versions.
+
 ## Category: 
 
 - Banking
